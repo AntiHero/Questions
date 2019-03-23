@@ -12,3 +12,9 @@ explanation: http://javascript.info/type-conversions
 complexity: 1
 ---
 
+--- # Список фильмов: последовательность в блочном формате
+- Casablanca
+- Spellbound
+- Notorious
+--- # Список покупок: последовательность в однострочном формате
+[milk, bread, eggs, juice]
