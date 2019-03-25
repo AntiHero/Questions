@@ -6,8 +6,7 @@ data:
     explanation: http://javascript.info/type-conversionsf
     complexity: low 
     
-  - >
-    questionTitle: Какой будет результат?
+  - questionTitle: Какой будет результат?
     questionDescription: [1 + "2" + 9 ]
     correctAnswer: "129"
     explanation: http://javascript.info/type-conversionsf
