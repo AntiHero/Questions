@@ -44,3 +44,7 @@ data:
 | col 2 is |    centered   |   $12 |
 | col 3 is | right-aligned |    $1 |
     
+|custom title|b|c|
+|----|----|----|
+|asdfa|[ [ 239487, asdff ], [ 239487, asdff ] ]|{"c":"asdf","g":"[ 239487, asdff ]"}|
+|sdf|gsdf|{null}|
