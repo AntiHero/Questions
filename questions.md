@@ -2,19 +2,19 @@
 data: 
   - questionTitle: Какой будет результат?
     questionDescription: [2 + 9 + "1"]
-    correctAnswer: "111"
+    correctAnswer: "\"111\""
     explanation: http://javascript.info/type-conversionsf
     complexity: low 
     
   - questionTitle: Какой будет результат?
     questionDescription: [1 + "2" + 9 ]
-    correctAnswer: \"129\"
+    correctAnswer: "\"129\""
     explanation: http://javascript.info/type-conversionsf
     complexity: low
 
   - questionTitle: Какой будет результат?
     questionDescription: [null + "8" / "4"]
-    correctAnswer: \"2\"
+    correctAnswer: "\"2\""
     explanation: http://javascript.info/type-conversionsf
     complexity: low
  
