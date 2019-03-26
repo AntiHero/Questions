@@ -26,13 +26,13 @@ data:
 
   - questionTitle: Какой будет результат?
     questionDescription: Boolean("JavaScript")
-    correctAnswer: [true, True, TRUE]
+    correctAnswer: ["true", "True", "TRUE"]
     explanation: http://javascript.info/type-conversionsf
     complexity: low
 
   - questionTitle: Какой будет результат?
     questionDescription: Boolean(undefined)
-    correctAnswer: [false, False, FALSE]
+    correctAnswer: ["false", "False", "FALSE"]
     explanation: http://javascript.info/type-conversionsf
     complexity: low
 ---
