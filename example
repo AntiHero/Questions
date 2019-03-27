@@ -61,7 +61,7 @@
       },
       {  
          "questionTitle":"Какой будет результат?",
-         "questionDescription":["Boolean(\"JavaScript\")",
+         "questionDescription":["Boolean(\"JavaScript\")"],
          "correctAnswer":[  
             true,
             true,
