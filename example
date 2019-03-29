@@ -34,7 +34,7 @@
                "questionDescription":[  
                   "2 + 9 + \"1\""
                ],
-               "correctAnswer":"111",
+               "correctAnswer":"\"111"",
                "explanation":"http://javascript.info/type-conversionsf",
                "complexity":"low"
             },
@@ -43,7 +43,7 @@
                "questionDescription":[  
                   "1 + \"2\" + 9"
                ],
-               "correctAnswer":"129",
+               "correctAnswer":"\"129\"",
                "explanation":"http://javascript.info/type-conversionsf",
                "complexity":"low"
             },
