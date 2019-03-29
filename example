@@ -1,184 +1,154 @@
-{
-  "numberOfLevels": 2,
-  "numberOfStages": 2,
-  "numberOfQuestions": 5,
-  "complexity": {
-    "1": {
-      "operators": ["+", "-"],
-      "maxNumber": 9
-    },
-    "2": {
-      "operators": ["+", "-"],
-      "maxNumber": 20
-    },
-    "3": {
-      "operators": ["+", "-", "x"],
-      "maxNumber": 30
-    }
-  },
-  "questionType": {
-    "open": {
-      "data": [  
-      {  
-         "questionTitle":"Какой будет результат?",
-         "questionDescription":[  
-            "2 + 9 + \"1\""
+{  
+   "numberOfLevels":2,
+   "numberOfStages":2,
+   "numberOfQuestions":5,
+   "complexity":{  
+      "1":{  
+         "operators":[  
+            "+",
+            "-"
          ],
-         "correctAnswer":"111",
-         "explanation":"http://javascript.info/type-conversionsf",
-         "complexity":"low"
+         "maxNumber":9
       },
-      {  
-         "questionTitle":"Какой будет результат?",
-         "questionDescription":[  
-            "1 + \"2\" + 9"
+      "2":{  
+         "operators":[  
+            "+",
+            "-"
          ],
-         "correctAnswer":"129",
-         "explanation":"http://javascript.info/type-conversionsf",
-         "complexity":"low"
+         "maxNumber":20
       },
-      {  
-         "questionTitle":"Какой будет результат?",
-         "questionDescription":[  
-            "null + \"8\" / \"4\""
+      "3":{  
+         "operators":[  
+            "+",
+            "-",
+            "x"
          ],
-         "correctAnswer":"2",
-         "explanation":"http://javascript.info/type-conversionsf",
-         "complexity":"low"
-      },
-      {  
-         "questionTitle":"Какой будет результат?",
-         "questionDescription":[  
-            "(null + \"2\") * \"3\" + 5"
-         ],
-         "correctAnswer": "nan",
-         "explanation":"http://javascript.info/type-conversionsf",
-         "complexity":"low"
-      },
-      {  
-         "questionTitle":"Какой будет результат?",
-         "questionDescription":["Boolean(\"JavaScript\")"],
-         "correctAnswer": "true",
-         "explanation":"http://javascript.info/type-conversionsf",
-         "complexity":"low"
-      },
-      {  
-         "questionTitle":"Какой будет результат?",
-         "questionDescription":["Boolean(undefined)"],
-         "correctAnswer": "false",
-         "explanation":"http://javascript.info/type-conversionsf",
-         "complexity":"low"
-      },
-        {  
-         "questionTitle":"Что вернет следующий код?",
-         "questionDescription":[  
-            "console.log(typeof true)"
-         ],
-         "correctAnswer": "boolean",
-         "explanation":"https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/typeof",
-         "complexity":"low"
-      },
-      {  
-         "questionTitle":"Что вернет следующий код?",
-         "questionDescription":[  
-            "console.log(typeof NaN)"
-         ],
-         "correctAnswer": "number",
-         "explanation":"https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/typeof",
-         "complexity":"low"
-      },
-      {  
-         "questionTitle":"Что вернет следующий код?",
-         "questionDescription":[  
-            "console.log(typeof typeof(1))"
-         ],
-         "correctAnswer": "string",
-         "explanation":"https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/typeof",
-         "complexity":"low"
-      },
-      {  
-         "questionTitle":"Что вернет следующий код?",
-         "questionDescription":[  
-            "console.log(typeof 'true')"
-         ],
-         "correctAnswer": "string",
-         "explanation":"https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/typeof",
-         "complexity":"low"
-      },
-      {  
-         "questionTitle":"Что вернет следующий код?",
-         "questionDescription":[  
-            "console.log(typeof isNaN)"
-         ],
-         "correctAnswer": "function",
-         "explanation":"https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/typeof",
-         "complexity":"low"
-      },
-      {  
-         "questionTitle":"Что вернет следующий код?",
-         "questionDescription":[  
-            "console.log(typeof null)"
-         ],
-         "correctAnswer": "object",
-         "explanation":"https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/typeof",
-         "complexity":"low"
-      },
-      {  
-         "questionTitle":"Что вернет следующий код?",
-         "questionDescription":[  
-            "console.log(typeof undefined)"
-         ],
-         "correctAnswer": "undefined",
-         "explanation":"https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/typeof",
-         "complexity":"low"
+         "maxNumber":30
       }
-    ],
-      "frequency": 1,
-      "responseTime": 300000
-    },
-    "selective": {
-      "data": [
-        {
-          "question": "Бабушка собрала с одной грядки 10 больших и 3 маленьких морковки, а с другой - 9 больших и 7 маленьких. Сколько всего морковок собрала бабушка?",
-          "answers": [20, 27, 29, 28],
-          "correctAnswer": 29
-        },
-        {
-          "question":
-          "А и Б сидели на трубе. А упало, Б пропало. Что осталось на трубе?",
-          "answers": ["А", "Б", "И", "Ничего"],
-          "correctAnswer": "И"
-        },
-        {
-          "question":
-          "Белочка заготовила орехов в 2 раза больше, чем грибов. Затем она принесла ещё 8 грибов, и грибов стало столько же, сколько и орехов. Сколько орехов заготовила белочка?",
-          "answers": [4, 8, 16, 0],
-          "correctAnswer": 16
-        }
-      ],
-      "frequency": 3,
-      "responseTime": 300000
-    },
-    "descriptive": {
-      "data": [
-        {
-          "question":
-          "Бабушка Зина собрала в лесу 5 килограммов грибов. Бабушка Люда 10 килограммов. Проверка показала, что все грибы радиоактивны. Сколько килограммов белых грибов выкинули обе бабушки с громким вздохом?",
-          "correctAnswer": 15
-        },
-        {
-          "question":
-          "Костя собрал 12 килограммов грибов. Когда бабушка выкинула из его корзинки все ядовитые грибы, у Кости осталось только 3 килограмма грибов. Сколько килограммов несъедобных гибов собрал Костя.",
-          "correctAnswer": 9
-        },
-        {
-          "question":
-          "Катя тайком съела 3 розочки на праздничном торте. Лёша съел 5 розочек. Сколько было розочек на торте, если вечером папа долго удивлялся, почему современные торты совсем ничем не украшают.",
-          "correctAnswer": 8
-        }
-      ],
-      "frequency": 3,
-      "responseTime": 300000
-    }
-  }
+   },
+   "questionType":{  
+      "open":{  
+         "data":[  
+            {  
+               "questionTitle":"Какой будет результат?",
+               "questionDescription":[  
+                  "2 + 9 + \"1\""
+               ],
+               "correctAnswer":"111",
+               "explanation":"http://javascript.info/type-conversionsf",
+               "complexity":"low"
+            },
+            {  
+               "questionTitle":"Какой будет результат?",
+               "questionDescription":[  
+                  "1 + \"2\" + 9"
+               ],
+               "correctAnswer":"129",
+               "explanation":"http://javascript.info/type-conversionsf",
+               "complexity":"low"
+            },
+            {  
+               "questionTitle":"Какой будет результат?",
+               "questionDescription":[  
+                  "null + \"8\" / \"4\""
+               ],
+               "correctAnswer":"2",
+               "explanation":"http://javascript.info/type-conversionsf",
+               "complexity":"low"
+            },
+            {  
+               "questionTitle":"Какой будет результат?",
+               "questionDescription":[  
+                  "(null + \"2\") * \"3\" + 5"
+               ],
+               "correctAnswer":"nan",
+               "explanation":"http://javascript.info/type-conversionsf",
+               "complexity":"low"
+            },
+            {  
+               "questionTitle":"Какой будет результат?",
+               "questionDescription":[  
+                  "Boolean(\"JavaScript\")"
+               ],
+               "correctAnswer":"true",
+               "explanation":"http://javascript.info/type-conversionsf",
+               "complexity":"low"
+            },
+            {  
+               "questionTitle":"Какой будет результат?",
+               "questionDescription":[  
+                  "Boolean(undefined)"
+               ],
+               "correctAnswer":"false",
+               "explanation":"http://javascript.info/type-conversionsf",
+               "complexity":"low"
+            },
+            {  
+               "questionTitle":"Что вернет следующий код?",
+               "questionDescription":[  
+                  "console.log(typeof true)"
+               ],
+               "correctAnswer":"boolean",
+               "explanation":"https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/typeof",
+               "complexity":"low"
+            },
+            {  
+               "questionTitle":"Что вернет следующий код?",
+               "questionDescription":[  
+                  "console.log(typeof NaN)"
+               ],
+               "correctAnswer":"number",
+               "explanation":"https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/typeof",
+               "complexity":"low"
+            },
+            {  
+               "questionTitle":"Что вернет следующий код?",
+               "questionDescription":[  
+                  "console.log(typeof typeof(1))"
+               ],
+               "correctAnswer":"string",
+               "explanation":"https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/typeof",
+               "complexity":"low"
+            },
+            {  
+               "questionTitle":"Что вернет следующий код?",
+               "questionDescription":[  
+                  "console.log(typeof 'true')"
+               ],
+               "correctAnswer":"string",
+               "explanation":"https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/typeof",
+               "complexity":"low"
+            },
+            {  
+               "questionTitle":"Что вернет следующий код?",
+               "questionDescription":[  
+                  "console.log(typeof isNaN)"
+               ],
+               "correctAnswer":"function",
+               "explanation":"https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/typeof",
+               "complexity":"low"
+            },
+            {  
+               "questionTitle":"Что вернет следующий код?",
+               "questionDescription":[  
+                  "console.log(typeof null)"
+               ],
+               "correctAnswer":"object",
+               "explanation":"https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/typeof",
+               "complexity":"low"
+            },
+            {  
+               "questionTitle":"Что вернет следующий код?",
+               "questionDescription":[  
+                  "console.log(typeof undefined)"
+               ],
+               "correctAnswer":"undefined",
+               "explanation":"https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/typeof",
+               "complexity":"low"
+            }
+         ],
+         "frequency":1,
+         "responseTime":300000
+      }
+   }
 }
