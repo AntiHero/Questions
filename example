@@ -35,7 +35,7 @@
                   "2 + 9 + \"1\""
                ],
                "correctAnswer":"\"111\"",
-               "explanation":"http://javascript.info/type-conversionsf",
+               "explanation":"http://javascript.info/type-conversions",
                "complexity":"low"
             },
             {  
@@ -44,7 +44,7 @@
                   "1 + \"2\" + 9"
                ],
                "correctAnswer":"\"129\"",
-               "explanation":"http://javascript.info/type-conversionsf",
+               "explanation":"http://javascript.info/type-conversions",
                "complexity":"low"
             },
             {  
@@ -53,7 +53,7 @@
                   "null + \"8\" / \"4\""
                ],
                "correctAnswer":"2",
-               "explanation":"http://javascript.info/type-conversionsf",
+               "explanation":"http://javascript.info/type-conversions",
                "complexity":"low"
             },
             {  
@@ -62,7 +62,7 @@
                   "(null + \"2\") * \"3\" + 5"
                ],
                "correctAnswer":"nan",
-               "explanation":"http://javascript.info/type-conversionsf",
+               "explanation":"http://javascript.info/type-conversions",
                "complexity":"low"
             },
             {  
@@ -71,7 +71,7 @@
                   "Boolean(\"JavaScript\")"
                ],
                "correctAnswer":"true",
-               "explanation":"http://javascript.info/type-conversionsf",
+               "explanation":"http://javascript.info/type-conversions",
                "complexity":"low"
             },
             {  
@@ -80,7 +80,7 @@
                   "Boolean(undefined)"
                ],
                "correctAnswer":"false",
-               "explanation":"http://javascript.info/type-conversionsf",
+               "explanation":"http://javascript.info/type-conversions",
                "complexity":"low"
             },
             {  
